@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* ========================= nav */
+body {
+    font-family: "Poppins", sans-serif;
+    
+}
+header {
+    background-color: white;
+    background-image: url(../img/Background.png);
+}
+header nav {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header nav ul .fa-solid fa-bars {
+    display: none ;
+}
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li {
+    margin: 15px 10px;
+    padding:10px ;
+    font-size:17px ;
+    font-weight:300 ;
+}
+header nav h1 {
+    padding-top: 25px;
+}
+header nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: hsl(236, 13%, 42%);
+}
+
+
+/* ==================main */
+main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/Background.png);
+    background-size: 100% 100%;
+    text-align: center;
+    position: relative;
+}
+main img {
+    width: 70%;
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+}
+main h1 {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 50px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    margin-bottom: 20px;
+    padding-top: 25px;
+}
+main p {
+   color: rgba(0, 0, 0, 0.6);
+   font-family: "Poppins", sans-serif;
+   font-weight: 400;
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px;
+    margin-bottom: 10px;
+    transition: all 0.5s;
+    border: 1px solid black;
+    font-weight: 400;
+    border-radius: 10px;
+}
+button:hover {
+    color: black;
+    background-color: white;
+}
+/* ======================= footer  */
+section {
+    width: 100%;
+    height: 80vh;
+    background-color: white;
+    position: relative;
+}
+section .right {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    width: 35%;
+    height: 450px;
+    background-image: url(../img/Customizable\ Image.png);
+    background-size: 100% 100%;
+    margin-left: 650px;
+    margin-top: 50px;
+}
+section .right img {
+    width: 50%;
+}
+section .left {
+    width: 45%;
+    text-align: left;
+    position: absolute;
+    left: 25px;
+    top: 100px;
+    padding-left: 50px;
+}
+section .left h1 {
+    font-weight: 800;
+    font-size: 30px;
+}
+section .left p {
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 17px;
+}
+
+/* ==================== footer  */
+footer {
+    margin-top: 20px;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    color: rgba(0, 0, 0, 0.6) ;
+    background-color: white;
+    font-weight: 300;
+}
+footer img {
+    margin-right: 500px;
+}
+footer h5 {
+    padding: 30px;
+}
